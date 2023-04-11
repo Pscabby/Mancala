@@ -36,7 +36,7 @@ struct ContentView: View {
                             .font(.custom("Comics Deluxe", size: 30))
                     }.buttonStyle(.borderedProminent)
                     .padding(.trailing)
-                    .sheet(isPresented: $ShowComputer) {
+                    .fullScreenCover(isPresented: $ShowComputer) {
                         ComputerPage(ShowStatis: $ShowStatistics, ShowPlayer: $ShowComputer)
                     }
                     
@@ -48,7 +48,7 @@ struct ContentView: View {
                     }.buttonStyle(.borderedProminent)
                         .foregroundColor(.yellow)
                     .padding(.leading)
-                    .sheet(isPresented: $ShowPlayer) {
+                    .fullScreenCover(isPresented: $ShowPlayer) {
                         PlayersGamePage(ShowStatis: $ShowStatistics, ShowPlayer: $ShowPlayer)
                     }
                 }.padding(.bottom)
@@ -63,7 +63,7 @@ struct ContentView: View {
                     }.buttonStyle(.borderedProminent)
                         .foregroundColor(.green)
                         .padding(.trailing)
-                        .sheet(isPresented: $ShowStatistics) {
+                        .fullScreenCover(isPresented: $ShowStatistics) {
                             
                             StatisiticsView(score: $score, Player1: $Player1, Player2: $Player2, ShowStatis: $ShowStatistics)
                         }
@@ -75,7 +75,7 @@ struct ContentView: View {
                             .font(.custom("Comics Deluxe", size: 30))
                     }.buttonStyle(.borderedProminent)
                         .padding(.leading)
-                        .sheet(isPresented: $ShowHowToPlay) {
+                        .fullScreenCover(isPresented: $ShowHowToPlay) {
                             HowToPlay(ShowHowToPlay: $ShowHowToPlay)
                         }
                 }

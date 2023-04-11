@@ -270,7 +270,7 @@ struct PlayersGamePage: View {
                             }.foregroundColor(.orange)
                             .shadow(radius: 5)
                     }.frame(width: geometry.size.width/5, height: geometry.size.width/11)
-                        .sheet(isPresented: $ShowStatis) {
+                        .fullScreenCover(isPresented: $ShowStatis) {
                             StatisiticsView(score: $score, Player1: $Player1, Player2: $Player2, ShowStatis: $ShowStatis)
                         }
                     Button {
@@ -290,7 +290,7 @@ struct PlayersGamePage: View {
                             }.foregroundColor(.orange)
                             .shadow(radius: 5)
                     }.frame(width: geometry.size.width/5, height: geometry.size.width/11)
-                        .sheet(isPresented: $ShowSetting) {
+                        .fullScreenCover(isPresented: $ShowSetting) {
                             SettingPage(music1: $music1, music2: $music2, music3: $music3, sound1: $sound1, sound2: $sound2, graphic1: $graphic1, graphic2: $graphic2, graphic3: $graphic3, song: $song, sound: $sound, graphic: $graphic, volume: $volume, ShowSetting: $ShowSetting)
                         }
                     
