@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2873367029E468EF00F2B792 /* StatisiticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873366F29E468EF00F2B792 /* StatisiticsView.swift */; };
+		2873367229E47FEA00F2B792 /* ComputerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873367129E47FEA00F2B792 /* ComputerPage.swift */; };
+		28AD443229D421A100AD900B /* Comics Deluxe.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28AD443129D421A100AD900B /* Comics Deluxe.otf */; };
+		28AD443629DC10CC00AD900B /* PlayersGamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD443529DC10CC00AD900B /* PlayersGamePage.swift */; };
+		28AD443829DC197300AD900B /* HoleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD443729DC197300AD900B /* HoleData.swift */; };
+		28AD443D29E026FB00AD900B /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD443C29E026FB00AD900B /* SettingPage.swift */; };
+		28AD443F29E04E9600AD900B /* sea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28AD443E29E04E9600AD900B /* sea.mp3 */; };
+		28AD444329E0524A00AD900B /* JustMe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28AD444229E0524A00AD900B /* JustMe.mp3 */; };
+		28AD444529E05BD000AD900B /* ice cream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28AD444429E05BD000AD900B /* ice cream.mp3 */; };
+		28AD444729E16EFC00AD900B /* ScoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD444629E16EFC00AD900B /* ScoreData.swift */; };
+		28BBFC8F29D418DA00154BCF /* MancalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBFC8E29D418DA00154BCF /* MancalaApp.swift */; };
+		28BBFC9129D418DA00154BCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBFC9029D418DA00154BCF /* ContentView.swift */; };
+		28BBFC9329D418DB00154BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BBFC9229D418DB00154BCF /* Assets.xcassets */; };
+		28BBFC9629D418DB00154BCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BBFC9529D418DB00154BCF /* Preview Assets.xcassets */; };
+		28D81FD729E48D9200DF2EDC /* HowToPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D81FD629E48D9200DF2EDC /* HowToPlay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2873366F29E468EF00F2B792 /* StatisiticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisiticsView.swift; sourceTree = "<group>"; };
+		2873367129E47FEA00F2B792 /* ComputerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerPage.swift; sourceTree = "<group>"; };
+		28AD443129D421A100AD900B /* Comics Deluxe.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comics Deluxe.otf"; sourceTree = "<group>"; };
+		28AD443529DC10CC00AD900B /* PlayersGamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersGamePage.swift; sourceTree = "<group>"; };
+		28AD443729DC197300AD900B /* HoleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleData.swift; sourceTree = "<group>"; };
+		28AD443C29E026FB00AD900B /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
+		28AD443E29E04E9600AD900B /* sea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sea.mp3; sourceTree = "<group>"; };
+		28AD444229E0524A00AD900B /* JustMe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JustMe.mp3; sourceTree = "<group>"; };
+		28AD444429E05BD000AD900B /* ice cream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ice cream.mp3"; sourceTree = "<group>"; };
+		28AD444629E16EFC00AD900B /* ScoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreData.swift; sourceTree = "<group>"; };
+		28BBFC8B29D418DA00154BCF /* Mancala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mancala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BBFC8E29D418DA00154BCF /* MancalaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaApp.swift; sourceTree = "<group>"; };
+		28BBFC9029D418DA00154BCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28BBFC9229D418DB00154BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28BBFC9529D418DB00154BCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28BBFC9D29D41D1A00154BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		28D81FD629E48D9200DF2EDC /* HowToPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28BBFC8829D418DA00154BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28AD442E29D41ED000AD900B /* font */ = {
+			isa = PBXGroup;
+			children = (
+				28AD443129D421A100AD900B /* Comics Deluxe.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		28AD443929DC198000AD900B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				28AD443729DC197300AD900B /* HoleData.swift */,
+				28AD444629E16EFC00AD900B /* ScoreData.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		28BBFC8229D418DA00154BCF = {
+			isa = PBXGroup;
+			children = (
+				28BBFC8D29D418DA00154BCF /* Mancala */,
+				28BBFC8C29D418DA00154BCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28BBFC8C29D418DA00154BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28BBFC8B29D418DA00154BCF /* Mancala.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28BBFC8D29D418DA00154BCF /* Mancala */ = {
+			isa = PBXGroup;
+			children = (
+				28BBFC9D29D41D1A00154BCF /* Info.plist */,
+				28BBFC8E29D418DA00154BCF /* MancalaApp.swift */,
+				28BBFC9029D418DA00154BCF /* ContentView.swift */,
+				28D81FD629E48D9200DF2EDC /* HowToPlay.swift */,
+				28AD443529DC10CC00AD900B /* PlayersGamePage.swift */,
+				2873367129E47FEA00F2B792 /* ComputerPage.swift */,
+				2873366F29E468EF00F2B792 /* StatisiticsView.swift */,
+				28AD443C29E026FB00AD900B /* SettingPage.swift */,
+				28AD443929DC198000AD900B /* data */,
+				28BBFC9229D418DB00154BCF /* Assets.xcassets */,
+				28AD443E29E04E9600AD900B /* sea.mp3 */,
+				28AD444229E0524A00AD900B /* JustMe.mp3 */,
+				28AD444429E05BD000AD900B /* ice cream.mp3 */,
+				28AD442E29D41ED000AD900B /* font */,
+				28BBFC9429D418DB00154BCF /* Preview Content */,
+			);
+			path = Mancala;
+			sourceTree = "<group>";
+		};
+		28BBFC9429D418DB00154BCF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28BBFC9529D418DB00154BCF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28BBFC8A29D418DA00154BCF /* Mancala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BBFC9929D418DB00154BCF /* Build configuration list for PBXNativeTarget "Mancala" */;
+			buildPhases = (
+				28BBFC8729D418DA00154BCF /* Sources */,
+				28BBFC8829D418DA00154BCF /* Frameworks */,
+				28BBFC8929D418DA00154BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mancala;
+			productName = Mancala;
+			productReference = 28BBFC8B29D418DA00154BCF /* Mancala.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28BBFC8329D418DA00154BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					28BBFC8A29D418DA00154BCF = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 28BBFC8629D418DA00154BCF /* Build configuration list for PBXProject "Mancala" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28BBFC8229D418DA00154BCF;
+			productRefGroup = 28BBFC8C29D418DA00154BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28BBFC8A29D418DA00154BCF /* Mancala */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28BBFC8929D418DA00154BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BBFC9629D418DB00154BCF /* Preview Assets.xcassets in Resources */,
+				28BBFC9329D418DB00154BCF /* Assets.xcassets in Resources */,
+				28AD444529E05BD000AD900B /* ice cream.mp3 in Resources */,
+				28AD443F29E04E9600AD900B /* sea.mp3 in Resources */,
+				28AD444329E0524A00AD900B /* JustMe.mp3 in Resources */,
+				28AD443229D421A100AD900B /* Comics Deluxe.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28BBFC8729D418DA00154BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2873367029E468EF00F2B792 /* StatisiticsView.swift in Sources */,
+				2873367229E47FEA00F2B792 /* ComputerPage.swift in Sources */,
+				28BBFC9129D418DA00154BCF /* ContentView.swift in Sources */,
+				28AD443D29E026FB00AD900B /* SettingPage.swift in Sources */,
+				28AD443629DC10CC00AD900B /* PlayersGamePage.swift in Sources */,
+				28BBFC8F29D418DA00154BCF /* MancalaApp.swift in Sources */,
+				28AD444729E16EFC00AD900B /* ScoreData.swift in Sources */,
+				28D81FD729E48D9200DF2EDC /* HowToPlay.swift in Sources */,
+				28AD443829DC197300AD900B /* HoleData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28BBFC9729D418DB00154BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28BBFC9829D418DB00154BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28BBFC9A29D418DB00154BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mancala/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mancala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abby.Mancala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28BBFC9B29D418DB00154BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mancala/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mancala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abby.Mancala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28BBFC8629D418DA00154BCF /* Build configuration list for PBXProject "Mancala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BBFC9729D418DB00154BCF /* Debug */,
+				28BBFC9829D418DB00154BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28BBFC9929D418DB00154BCF /* Build configuration list for PBXNativeTarget "Mancala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BBFC9A29D418DB00154BCF /* Debug */,
+				28BBFC9B29D418DB00154BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28BBFC8329D418DA00154BCF /* Project object */;
+}
